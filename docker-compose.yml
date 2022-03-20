@@ -1,0 +1,10 @@
+version: '3.6'
+
+services:
+  web:
+    image: apache
+    build: ./app
+    container_name: apache
+    restart: always
+    ports:
+      - "80:80"
