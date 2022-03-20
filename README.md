@@ -19,7 +19,7 @@ docker-compose up -d
 - Wassim Mohammed Dahmane 5IW1
 
 # Choix technique
-Nous avons decidé de partir sur de l'html,css,js pour utiliser le moins de performance possible. Pour ce qui est du JS nous sommes d'abord partie sur une library Jquery avant de nous rendre compte qu'on pouvait améliorer grandement la chose. Nous l'avons donc supprimé afin d'améliorer notre score lighthouse et la taille de notre archive. 
+Nous avons decidé de partir sur de l'html,css,js pour améliorer nos performances. Pour ce qui est du JS nous sommes d'abord partie sur une library Jquery avant de nous rendre compte qu'on pouvait améliorer grandement la chose. Nous l'avons donc supprimé afin d'améliorer notre score lighthouse et la taille de notre archive. Nous avons aussi fais le choix de minifier tous nos fichiers. Nous avons essayé de rester le plus 'light' et natif possible.
 
 # Score
 ## Web page test
