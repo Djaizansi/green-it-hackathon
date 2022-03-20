@@ -11,6 +11,18 @@ http://51.68.127.128/
 docker-compose up -d
 ```
 
+## Lancer les tests de performance:
+Tout d'abord installer k6 sur votre machine en utilisant la commande :
+```
+brew install k6 (pour mac avec homebrew)
+```
+Ensuite, vous pouvez lancer les scripts avec le cli k6
+```
+k6 run script.js
+k6 run soak-test.js
+k6 run stress-test.js
+```
+
 #### Collaborateur
 
 - Marwane Bouabdellah 5IW1

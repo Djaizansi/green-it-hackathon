@@ -17,7 +17,7 @@ export const options = {
 
 export default function () {
     
-    const BASE_URL = 'https://green-it-esgi.000webhostapp.com/'; // make sure this is not production
+    const BASE_URL = 'http://51.68.127.128/'; // make sure this is not production
     
     http.batch([
     ['GET', `${BASE_URL}`, null, { tags: { name: 'green-it' } }],

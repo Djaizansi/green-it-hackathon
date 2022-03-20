@@ -9,7 +9,7 @@ export const options = {
   ],
 };
 
-const API_BASE_URL = 'https://green-it-esgi.000webhostapp.com/';
+const API_BASE_URL = 'http://51.68.127.128/';
 
 export default function () {
   http.batch([
